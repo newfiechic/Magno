@@ -1,0 +1,36 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# VSCode and local editor settings
+.vscode/
+*.swp
+
+# Logs, results, outputs
+logs/
+*.log
+
+# Models, training data, and journal entries
+models/
+journals/
+data/
+*.csv
+*.json
+
+# Sim results and backtest outputs
+sim/results/
+
+# Sensitive config (if any)
+dontshareconfig.py
+
+# General system files
+.DS_Store
+Thumbs.db
+
+# Runtime files or temp
+*.tmp
+*.bak
+
+# Optional: uncomment if frontend exists and builds static files
+# frontend/build/
